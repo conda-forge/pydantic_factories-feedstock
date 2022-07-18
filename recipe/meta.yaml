@@ -21,7 +21,7 @@ requirements:
     - python >=3.6,<4.0
     - poetry
   run:
-    - exrex
+    - xeger >=0.3.5,<1.0.0
     - faker
     - pydantic
     - python >=3.6,<4.0
