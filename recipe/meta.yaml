@@ -1,5 +1,5 @@
 {% set name = "pydantic_factories" %}
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic-factories-{{ version }}.tar.gz
-  sha256: f837093f317902bb8cd6804ca52675fc4e56f136c6b30ff64c15625d1b399e9e
+  sha256: d0df91b2c3acb701209f3652731b98568e7b6b747985c86e868e8682d199810e
 
 build:
   number: 0
