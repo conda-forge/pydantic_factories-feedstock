@@ -26,6 +26,7 @@ requirements:
     - pydantic
     - python >=3.6,<4.0
     - typing-extensions
+    - pytest
 
 test:
   imports:
