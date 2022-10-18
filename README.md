@@ -1,13 +1,15 @@
 About pydantic_factories
 ========================
 
-Home: https://github.com/Goldziher/pydantic-factories
+Home: https://github.com/starlite-api/pydantic-factories
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydantic_factories-feedstock/blob/main/LICENSE.txt)
 
-Summary: Mock data generation for pydantic based models
+Summary: Simple and powerful mock data generation using pydantic or dataclasses
+
+Documentation: https://starlite-api.github.io/pydantic-factories/
 
 Current build status
 ====================
@@ -145,4 +147,5 @@ Feedstock Maintainers
 
 * [@ivergara](https://github.com/ivergara/)
 * [@janjagusch](https://github.com/janjagusch/)
+* [@thewchan](https://github.com/thewchan/)
 
