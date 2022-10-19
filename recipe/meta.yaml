@@ -1,5 +1,5 @@
 {% set name = "pydantic_factories" %}
-{% set version = "1.8.1" %}
+{% set version = "1.8.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic-factories-{{ version }}.tar.gz
-  sha256: 42d15a812d317799bd81dffb1ae92bfb4d30b7a9099bcd4aa5af476210ec790c
+  sha256: 21b41179fde971e3ffc934a7a3c55b201f51018923c267d4c0ebd014fad30404
 
 build:
   number: 0
@@ -26,7 +26,6 @@ requirements:
     - pydantic
     - python >=3.6,<4.0
     - typing-extensions
-    - pytest
 
 test:
   imports:
