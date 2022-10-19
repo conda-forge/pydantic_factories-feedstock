@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic_factories-{{ version }}.tar.gz
-  sha256: a0125162334b47a04a7b44438372737b8bf43f2c9fd8e2d521f7bc16f319e0f7
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic-factories-{{ version }}.tar.gz
+  sha256: 21b41179fde971e3ffc934a7a3c55b201f51018923c267d4c0ebd014fad30404
 
 build:
   number: 0
