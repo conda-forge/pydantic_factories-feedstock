@@ -1,5 +1,5 @@
 {% set name = "pydantic_factories" %}
-{% set version = "1.11.1" %}
+{% set version = "1.12.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic_factories-{{ version }}.tar.gz
-  sha256: b0c269368e636b798c7845a66cd06765094c594e157de5a9124b26a65aec214a
+  sha256: a0125162334b47a04a7b44438372737b8bf43f2c9fd8e2d521f7bc16f319e0f7
 
 build:
   number: 0
@@ -18,27 +18,27 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6,<4.0
     - poetry-core >=1.0.0
+    - python >=3.7,<4.0
   run:
-    - xeger >=0.3.5,<1.0.0
     - faker
-    - pydantic
-    - python >=3.6,<4.0
+    - pydantic >=1.9.0
+    - python >=3.7,<4.0
     - typing-extensions
+    - xeger
 
 test:
   imports:
     - pydantic_factories
-    - pydantic_factories.constraints
   commands:
     - pip check
   requires:
     - pip
 
 about:
-  home: https://github.com/Goldziher/pydantic-factories
-  summary: Mock data generation for pydantic based models
+  home: https://github.com/starlite-api/pydantic-factories
+  doc_url: https://starlite-api.github.io/pydantic-factories/
+  summary: Simple and powerful mock data generation using pydantic or dataclasses 
   license: MIT
   license_file: LICENSE
 
@@ -46,3 +46,4 @@ extra:
   recipe-maintainers:
     - janjagusch
     - ivergara
+    - thewchan
