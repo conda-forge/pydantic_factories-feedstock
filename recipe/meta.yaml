@@ -1,5 +1,5 @@
 {% set name = "pydantic_factories" %}
-{% set version = "1.12.0" %}
+{% set version = "1.13.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic_factories-{{ version }}.tar.gz
-  sha256: a0125162334b47a04a7b44438372737b8bf43f2c9fd8e2d521f7bc16f319e0f7
+  sha256: 6ce8332c660fbe569fa3c6165d906e13dc4a3cc6217636621a9da78414da1434
 
 build:
   number: 0
@@ -38,7 +38,7 @@ test:
 about:
   home: https://github.com/starlite-api/pydantic-factories
   doc_url: https://starlite-api.github.io/pydantic-factories/
-  summary: Simple and powerful mock data generation using pydantic or dataclasses 
+  summary: Simple and powerful mock data generation using pydantic or dataclasses
   license: MIT
   license_file: LICENSE
 
