@@ -1,11 +1,11 @@
-About pydantic_factories
-========================
+About pydantic_factories-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydantic_factories-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/starlite-api/pydantic-factories
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydantic_factories-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple and powerful mock data generation using pydantic or dataclasses
 
