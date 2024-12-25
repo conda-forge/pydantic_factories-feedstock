@@ -22,7 +22,7 @@ requirements:
     - python {{ python_min }}
   run:
     - faker
-    - pydantic >=1.9.0
+    - pydantic >=1.9.0,<2
     - python >={{ python_min }},<4.0
     - typing-extensions
     - xeger
