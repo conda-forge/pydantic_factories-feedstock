@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic_factories-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydantic_factories-{{ version }}.tar.gz
   sha256: de36e0db7108af5f4328308da9a4049311c4d5e0814553d2f39078b08b05e48d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,11 +19,11 @@ requirements:
   host:
     - pip
     - poetry-core >=1.0.0
-    - python >=3.7,<4.0
+    - python {{ python_min }}
   run:
     - faker
-    - pydantic >=1.9.0
-    - python >=3.7,<4.0
+    - pydantic >=1.9.0,<2
+    - python >={{ python_min }},<4.0
     - typing-extensions
     - xeger
 
@@ -34,6 +34,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/starlite-api/pydantic-factories
