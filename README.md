@@ -29,7 +29,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pydantic_factories-green.svg)](https://anaconda.org/conda-forge/pydantic_factories) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pydantic_factories.svg)](https://anaconda.org/conda-forge/pydantic_factories) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pydantic_factories.svg)](https://anaconda.org/conda-forge/pydantic_factories) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pydantic_factories.svg)](https://anaconda.org/conda-forge/pydantic_factories) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pydantic__factories-green.svg)](https://anaconda.org/conda-forge/pydantic_factories) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pydantic_factories.svg)](https://anaconda.org/conda-forge/pydantic_factories) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pydantic_factories.svg)](https://anaconda.org/conda-forge/pydantic_factories) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pydantic_factories.svg)](https://anaconda.org/conda-forge/pydantic_factories) |
 
 Installing pydantic_factories
 =============================
